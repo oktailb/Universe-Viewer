@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="UniverseViewer" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/oktail/workspace/Universe Viewer/engine/engine-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/oktail/workspace/Universe Viewer/engine/engine-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/oktail/workspace/Universe Viewer/engine/engine-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uvEngine">
+         <Option output="/home/oktail/workspace/Universe Viewer/engine/engine-build/lib/libuvEngine.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/oktail/workspace/Universe Viewer/engine/engine-build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/oktail/workspace/Universe Viewer/engine/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../include/c++/5.1.1" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../include/c++/5.1.1/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../include/c++/5.1.1/x86_64-redhat-linux" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 uvEngine" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uvEngine/fast">
+         <Option output="/home/oktail/workspace/Universe Viewer/engine/engine-build/lib/libuvEngine.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/oktail/workspace/Universe Viewer/engine/engine-build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/oktail/workspace/Universe Viewer/engine/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../include/c++/5.1.1" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../include/c++/5.1.1/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/../../../../include/c++/5.1.1/x86_64-redhat-linux" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 uvEngine/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/oktail/workspace/Universe\ Viewer/engine/engine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ACOSH.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/AONEonPdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ASC_DEGtoSTR_DEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ASC_DEGtoSTR_HMS.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ASC_RADtoSTR_DEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ASC_RADtoSTR_HMS.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/CONCLUSION.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DEC_DEGtoSTR_DEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DEC_DEGtoSTR_DMS.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DEC_RADtoSTR_DEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DEC_RADtoSTR_DMS.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DEGtoRAD.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DMStoDEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DMStoRAD.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DlaRonPdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/DomRonPdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ENTETE.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/HMStoDEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/HMStoRAD.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/MAGtoSTR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/ONEonPdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/PdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Qinit.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/RADtoDEG.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/REDtoSTR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/RonPdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vadd.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vinit.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vmult.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vneg_curv.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vnormalise.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vnorme.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vnul_curv.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vpos_curv.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vproduct.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/Vscalar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/calc_quasar_pos.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/calc_quasar_proj.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/calc_quasar_tau.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/codistance.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/coor_tableau.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/derivl.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/derivo.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/donne_V.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/donne_cell.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/donne_integral.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/donne_z.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/earth_codistance.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/get_bin_nb_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/get_txt_nb_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/get_xml_nb_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grC4.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/graphC4.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheA1.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheA2.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheC0.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheC1.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheC2.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheC3.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheC4.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/grapheP.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/init_abacus.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/init_abacusV.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/init_projection_vectors.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/init_uv.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/integral.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/inter_distance.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/isotrope.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/null_PdeR.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/projection.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/read_bin_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/read_txt_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/read_xml_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/set_earth_proj.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/set_quasar_proj.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/test_C2.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/test_C3.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/test_C4.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/write_bin_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/write_ps_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/write_txt_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/write_xml_quasar.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/src/xmalloc.c">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/include/uv.h">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/include/uv_defines.h">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/include/uv_externs.h">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/include/uv_globals.h">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/include/uv_prototypes.h">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/include/uv_types.h">
+      </Unit>
+      <Unit filename="/home/oktail/workspace/Universe Viewer/engine/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

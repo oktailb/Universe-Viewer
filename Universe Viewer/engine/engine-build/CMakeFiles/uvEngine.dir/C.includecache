@@ -1,0 +1,368 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/uv.h
+math.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+uv_defines.h
+../include/uv_defines.h
+uv_types.h
+../include/uv_types.h
+uv_prototypes.h
+../include/uv_prototypes.h
+uv_globals.h
+../include/uv_globals.h
+
+../include/uv_defines.h
+
+../include/uv_globals.h
+
+../include/uv_prototypes.h
+
+../include/uv_types.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ACOSH.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/AONEonPdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ASC_DEGtoSTR_DEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ASC_DEGtoSTR_HMS.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ASC_RADtoSTR_DEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ASC_RADtoSTR_HMS.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/CONCLUSION.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DEC_DEGtoSTR_DEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DEC_DEGtoSTR_DMS.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DEC_RADtoSTR_DEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DEC_RADtoSTR_DMS.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DEGtoRAD.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DMStoDEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DMStoRAD.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DlaRonPdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/DomRonPdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ENTETE.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/HMStoDEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/HMStoRAD.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/MAGtoSTR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/ONEonPdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/PdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Qinit.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/RADtoDEG.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/REDtoSTR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/RonPdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vadd.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vinit.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vmult.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vneg_curv.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vnormalise.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vnorme.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vnul_curv.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vpos_curv.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vproduct.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/Vscalar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/calc_quasar_pos.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/calc_quasar_proj.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/calc_quasar_tau.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/codistance.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/coor_tableau.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/derivl.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/derivo.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/donne_V.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/donne_cell.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/donne_integral.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/donne_z.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/earth_codistance.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/get_bin_nb_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/get_txt_nb_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/get_xml_nb_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grC4.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/graphC4.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheA1.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheA2.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheC0.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheC1.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheC2.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheC3.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheC4.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/grapheP.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/init_abacus.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/init_abacusV.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/init_projection_vectors.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/init_uv.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/integral.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/inter_distance.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/isotrope.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/null_PdeR.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/projection.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/read_bin_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/read_txt_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/read_xml_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/set_earth_proj.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/set_quasar_proj.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/test_C2.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/test_C3.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/test_C4.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/write_bin_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/write_ps_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/write_txt_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/write_xml_quasar.c
+uv.h
+/home/oktail/workspace/Universe Viewer/engine/src/uv.h
+
+/home/oktail/workspace/Universe Viewer/engine/src/xmalloc.c
+stdlib.h
+-
+stdio.h
+-
+

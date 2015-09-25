@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://vizier.u-strasbg.fr/xml/VOTable.xsd">
+ <DESCRIPTION>
+   VizieR Astronomical Server: cdsweb.u-strasbg.fr 	2003-04-08T15:30:33
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	question@simbad.u-strasbg.fr
+ </DESCRIPTION>
+<!-- VOTable description at  http://vizier.u-strasbg.fr/doc/VOTable/ -->
+
+<DEFINITIONS>
+  <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+</DEFINITIONS>
+
+
+<!-- Parameters used for the Query:
+ -to=4
+ -from=-3
+ -this=-3
+ -out.max=5
+ -out.form=XML-VOTable(XSL)
+ -order=I
+ -c=
+ -c.eq=J2000
+ -oc.form=dec
+ -c.r= 10
+ -c.u=arcmin
+ -c.geom=r
+ -out.add=_r
+ -out.add=_RA*-c.eq,_DE*-c.eq
+ -sort=_r
+ -source=VII/224/table1
+ -out=RAJ2000
+ RAJ2000=
+ -out=DEJ2000
+ DEJ2000=
+ -out=z
+ z=
+ -out=Vmag
+ Vmag=
+ -file=.
+ -meta=0
+ -->
+<INFO ID="Ref" name="-ref" value="VOTx19544" />
+
+<RESOURCE ID="yCat_7224" name="VII/224">
+  <DESCRIPTION>Quasars and Active Galactic Nuclei (10th Ed.) (Veron+ 2001)</DESCRIPTION>
+  <TABLE ID="VII_224_table1" name="VII/224/table1">
+    <DESCRIPTION>Quasars (brighter than absolute magnitude -23)</DESCRIPTION>
+    <!-- MatchedRows: 5 (upper limit) -->
+
+    <!-- Now comes the definition of each field -->
+    <FIELD name="_RAJ2000" ucd="POS_EQ_RA_MAIN" ref="J2000" datatype="float" width="8" precision="4" unit="deg">
+      <DESCRIPTION>Right ascension (FK5) Equinox=J2000. (computed by VizieR, not part of the original data)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="_DEJ2000" ucd="POS_EQ_DEC_MAIN" ref="J2000" datatype="float" width="8" precision="4" unit="deg">
+      <DESCRIPTION>Declination (FK5) Equinox=J2000. (computed by VizieR, not part of the original data)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RAJ2000" ucd="POS_EQ_RA_MAIN" ref="J2000" datatype="char" arraysize="10" unit="&quot;h:m:s&quot;">
+      <DESCRIPTION>Right Ascension J2000 (hours) (see also n_RAh)</DESCRIPTION>
+      <LINK href="http://cdsweb.u-strasbg.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=VII/224/table1&amp;recno=${recno}"/>
+    </FIELD>
+    <FIELD name="DEJ2000" ucd="POS_EQ_DEC_MAIN" ref="J2000" datatype="char" arraysize="9" unit="&quot;d:m:s&quot;">
+      <DESCRIPTION>Declination J2000 (degrees)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="z" ucd="REDSHIFT_HC" datatype="float" width="6" precision="3">
+      <DESCRIPTION>? redshift</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Vmag" ucd="PHOT_JHN_V" datatype="float" width="5" precision="2" unit="mag">
+      <DESCRIPTION>? magnitude, V or other (see n_Vmag)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="recno" ucd="RECORD" datatype="int" width="8" type="hidden">
+      <DESCRIPTION>Record number within the original table (starting from 1)</DESCRIPTION>
+      <LINK href="http://cdsweb.u-strasbg.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=VII/224/table1&amp;recno=${recno}"/>
+    </FIELD>
+
+<DATA><TABLEDATA>
+<TR><TD>000.0054</TD><TD>-2.0333</TD><TD>00 00 01.3</TD><TD>-02 02 00</TD><TD>1.356</TD><TD>19.64</TD><TD>1</TD></TR>
+<TR><TD>000.0117</TD><TD>-35.0592</TD><TD>00 00 02.8</TD><TD>-35 03 33</TD><TD>0.508</TD><TD>17.00</TD><TD>2</TD></TR>
+<TR><TD>000.0233</TD><TD>-27.4194</TD><TD>00 00 05.6</TD><TD>-27 25 10</TD><TD>1.930</TD><TD>19.43</TD><TD>3</TD></TR>
+<TR><TD>000.0413</TD><TD>-30.9250</TD><TD>00 00 09.9</TD><TD>-30 55 30</TD><TD>1.787</TD><TD>19.12</TD><TD>4</TD></TR>
+<TR><TD>000.0425</TD><TD>-31.9972</TD><TD>00 00 10.2</TD><TD>-31 59 50</TD><TD>1.638</TD><TD>20.44</TD><TD>5</TD></TR>
+</TABLEDATA>
+</DATA>
+<!-- Result Truncated to 5 -->
+  </TABLE>
+</RESOURCE>
+</VOTABLE>

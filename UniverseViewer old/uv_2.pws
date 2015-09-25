@@ -1,0 +1,24 @@
+
+[executer]
+RunInTerminal=true
+
+[Project DBase]
+ShowLocals=true
+
+[filelist]
+0=/home/lecoq/TER/glageex-2/src/interface.c
+1=/home/lecoq/TER/glageex-2/src/callbacks.c
+2=/home/lecoq/TER/glageex-2/src/main.c
+
+[filenumbers]
+0=753
+1=17
+2=31
+
+[filemarkers]
+0=
+1=
+2=
+
+[find_text]
+0=menu

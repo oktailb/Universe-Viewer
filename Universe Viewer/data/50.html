@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://vizier.u-strasbg.fr/xml/VOTable.xsd">
+ <DESCRIPTION>
+   VizieR Astronomical Server: cdsweb.u-strasbg.fr 	2003-04-08T17:16:33
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	question@simbad.u-strasbg.fr
+ </DESCRIPTION>
+<!-- VOTable description at  http://vizier.u-strasbg.fr/doc/VOTable/ -->
+
+<DEFINITIONS>
+  <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+</DEFINITIONS>
+
+
+<!-- Parameters used for the Query:
+ -to=4
+ -from=-3
+ -this=-3
+ -out.max=50
+ -out.form=XML-VOTable(XSL)
+ -order=I
+ -c=
+ -c.eq=J2000
+ -oc.form=dec
+ -c.r= 10
+ -c.u=arcmin
+ -c.geom=r
+ -out.add=_r
+ -out.add=_RA*-c.eq,_DE*-c.eq
+ -sort=_r
+ -source=VII/224/table1
+ -out=RAJ2000
+ RAJ2000=
+ -out=DEJ2000
+ DEJ2000=
+ -out=z
+ z=
+ -out=Vmag
+ Vmag=
+ -file=.
+ -meta=0
+ -->
+<INFO ID="Ref" name="-ref" value="VOTx11178" />
+
+<RESOURCE ID="yCat_7224" name="VII/224">
+  <DESCRIPTION>Quasars and Active Galactic Nuclei (10th Ed.) (Veron+ 2001)</DESCRIPTION>
+  <TABLE ID="VII_224_table1" name="VII/224/table1">
+    <DESCRIPTION>Quasars (brighter than absolute magnitude -23)</DESCRIPTION>
+    <!-- MatchedRows: 50 (upper limit) -->
+
+    <!-- Now comes the definition of each field -->
+    <FIELD name="_RAJ2000" ucd="POS_EQ_RA_MAIN" ref="J2000" datatype="float" width="8" precision="4" unit="deg">
+      <DESCRIPTION>Right ascension (FK5) Equinox=J2000. (computed by VizieR, not part of the original data)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="_DEJ2000" ucd="POS_EQ_DEC_MAIN" ref="J2000" datatype="float" width="8" precision="4" unit="deg">
+      <DESCRIPTION>Declination (FK5) Equinox=J2000. (computed by VizieR, not part of the original data)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RAJ2000" ucd="POS_EQ_RA_MAIN" ref="J2000" datatype="char" arraysize="10" unit="&quot;h:m:s&quot;">
+      <DESCRIPTION>Right Ascension J2000 (hours) (see also n_RAh)</DESCRIPTION>
+      <LINK href="http://cdsweb.u-strasbg.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=VII/224/table1&amp;recno=${recno}"/>
+    </FIELD>
+    <FIELD name="DEJ2000" ucd="POS_EQ_DEC_MAIN" ref="J2000" datatype="char" arraysize="9" unit="&quot;d:m:s&quot;">
+      <DESCRIPTION>Declination J2000 (degrees)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="z" ucd="REDSHIFT_HC" datatype="float" width="6" precision="3">
+      <DESCRIPTION>? redshift</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Vmag" ucd="PHOT_JHN_V" datatype="float" width="5" precision="2" unit="mag">
+      <DESCRIPTION>? magnitude, V or other (see n_Vmag)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="recno" ucd="RECORD" datatype="int" width="8" type="hidden">
+      <DESCRIPTION>Record number within the original table (starting from 1)</DESCRIPTION>
+      <LINK href="http://cdsweb.u-strasbg.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=VII/224/table1&amp;recno=${recno}"/>
+    </FIELD>
+
+<DATA><TABLEDATA>
+<TR><TD>000.0054</TD><TD>-2.0333</TD><TD>00 00 01.3</TD><TD>-02 02 00</TD><TD>1.356</TD><TD>19.64</TD><TD>1</TD></TR>
+<TR><TD>000.0117</TD><TD>-35.0592</TD><TD>00 00 02.8</TD><TD>-35 03 33</TD><TD>0.508</TD><TD>17.00</TD><TD>2</TD></TR>
+<TR><TD>000.0233</TD><TD>-27.4194</TD><TD>00 00 05.6</TD><TD>-27 25 10</TD><TD>1.930</TD><TD>19.43</TD><TD>3</TD></TR>
+<TR><TD>000.0413</TD><TD>-30.9250</TD><TD>00 00 09.9</TD><TD>-30 55 30</TD><TD>1.787</TD><TD>19.12</TD><TD>4</TD></TR>
+<TR><TD>000.0425</TD><TD>-31.9972</TD><TD>00 00 10.2</TD><TD>-31 59 50</TD><TD>1.638</TD><TD>20.44</TD><TD>5</TD></TR>
+<TR><TD>000.0500</TD><TD>+0.0400</TD><TD>00 00 12.0</TD><TD>+00 02 24</TD><TD>0.479</TD><TD>18.10</TD><TD>6</TD></TR>
+<TR><TD>000.0537</TD><TD>-2.1736</TD><TD>00 00 12.9</TD><TD>-02 10 25</TD><TD>1.450</TD><TD>18.50</TD><TD>7</TD></TR>
+<TR><TD>000.0679</TD><TD>-31.7439</TD><TD>00 00 16.3</TD><TD>-31 44 38</TD><TD>1.452</TD><TD>19.08</TD><TD>8</TD></TR>
+<TR><TD>000.0725</TD><TD>-8.8564</TD><TD>00 00 17.4</TD><TD>-08 51 23</TD><TD>1.250</TD><TD>18.93</TD><TD>9</TD></TR>
+<TR><TD>000.0842</TD><TD>-32.3503</TD><TD>00 00 20.2</TD><TD>-32 21 01</TD><TD>1.275</TD><TD>18.70</TD><TD>10</TD></TR>
+<TR><TD>000.0954</TD><TD>-2.4542</TD><TD>00 00 22.9</TD><TD>-02 27 15</TD><TD>0.590</TD><TD>18.00</TD><TD>11</TD></TR>
+<TR><TD>000.0988</TD><TD>+2.2114</TD><TD>00 00 23.7</TD><TD>+02 12 41</TD><TD>0.810</TD><TD>17.00</TD><TD>12</TD></TR>
+<TR><TD>000.1017</TD><TD>-12.7633</TD><TD>00 00 24.4</TD><TD>-12 45 48</TD><TD>0.200</TD><TD>15.49</TD><TD>13</TD></TR>
+<TR><TD>000.1033</TD><TD>-30.8469</TD><TD>00 00 24.8</TD><TD>-30 50 49</TD><TD>1.465</TD><TD>20.59</TD><TD>14</TD></TR>
+<TR><TD>000.1500</TD><TD>-31.3236</TD><TD>00 00 36.0</TD><TD>-31 19 25</TD><TD>2.013</TD><TD>20.59</TD><TD>15</TD></TR>
+<TR><TD>000.1529</TD><TD>-31.9419</TD><TD>00 00 36.7</TD><TD>-31 56 31</TD><TD>2.463</TD><TD>20.33</TD><TD>16</TD></TR>
+<TR><TD>000.1679</TD><TD>-28.0972</TD><TD>00 00 40.3</TD><TD>-28 05 50</TD><TD>1.757</TD><TD>18.88</TD><TD>17</TD></TR>
+<TR><TD>000.1746</TD><TD>-2.4897</TD><TD>00 00 41.9</TD><TD>-02 29 23</TD><TD>1.070</TD><TD>18.10</TD><TD>18</TD></TR>
+<TR><TD>000.1763</TD><TD>-31.5136</TD><TD>00 00 42.3</TD><TD>-31 30 49</TD><TD>1.927</TD><TD>20.72</TD><TD>19</TD></TR>
+<TR><TD>000.1783</TD><TD>-28.0833</TD><TD>00 00 42.8</TD><TD>-28 05 00</TD><TD>1.065</TD><TD>19.99</TD><TD>20</TD></TR>
+<TR><TD>000.1788</TD><TD>+0.9275</TD><TD>00 00 42.9</TD><TD>+00 55 39</TD><TD>0.949</TD><TD>18.70</TD><TD>21</TD></TR>
+<TR><TD>000.1854</TD><TD>-32.0208</TD><TD>00 00 44.5</TD><TD>-32 01 15</TD><TD>1.838</TD><TD>20.54</TD><TD>22</TD></TR>
+<TR><TD>000.2071</TD><TD>-27.6769</TD><TD>00 00 49.7</TD><TD>-27 40 37</TD><TD>2.136</TD><TD>19.95</TD><TD>23</TD></TR>
+<TR><TD>000.2108</TD><TD>-10.3656</TD><TD>00 00 50.6</TD><TD>-10 21 56</TD><TD>2.630</TD><TD>18.53</TD><TD>24</TD></TR>
+<TR><TD>000.2183</TD><TD>-28.8236</TD><TD>00 00 52.4</TD><TD>-28 49 25</TD><TD>0.865</TD><TD>19.38</TD><TD>25</TD></TR>
+<TR><TD>000.2238</TD><TD>-27.3561</TD><TD>00 00 53.7</TD><TD>-27 21 22</TD><TD>1.686</TD><TD>19.90</TD><TD>26</TD></TR>
+<TR><TD>000.2329</TD><TD>+17.3942</TD><TD>00 00 55.9</TD><TD>+17 23 39</TD><TD>0.215</TD><TD>17.20</TD><TD>27</TD></TR>
+<TR><TD>000.2425</TD><TD>-0.7794</TD><TD>00 00 58.2</TD><TD>-00 46 46</TD><TD>1.890</TD><TD>18.00</TD><TD>28</TD></TR>
+<TR><TD>000.2429</TD><TD>-23.2664</TD><TD>00 00 58.3</TD><TD>-23 15 59</TD><TD>1.872</TD><TD>17.00</TD><TD>29</TD></TR>
+<TR><TD>000.2517</TD><TD>-30.7550</TD><TD>00 01 00.4</TD><TD>-30 45 18</TD><TD>0.865</TD><TD>18.79</TD><TD>30</TD></TR>
+<TR><TD>000.2533</TD><TD>-31.0536</TD><TD>00 01 00.8</TD><TD>-31 03 13</TD><TD>1.539</TD><TD>20.62</TD><TD>31</TD></TR>
+<TR><TD>000.2658</TD><TD>-31.2408</TD><TD>00 01 03.8</TD><TD>-31 14 27</TD><TD>1.330</TD><TD>19.97</TD><TD>32</TD></TR>
+<TR><TD>000.2725</TD><TD>-15.8522</TD><TD>00 01 05.4</TD><TD>-15 51 08</TD><TD>2.044</TD><TD>18.30</TD><TD>33</TD></TR>
+<TR><TD>000.2787</TD><TD>-32.1114</TD><TD>00 01 06.9</TD><TD>-32 06 41</TD><TD>3.108</TD><TD>20.02</TD><TD>34</TD></TR>
+<TR><TD>000.2829</TD><TD>-28.9597</TD><TD>00 01 07.9</TD><TD>-28 57 35</TD><TD>0.887</TD><TD>19.78</TD><TD>35</TD></TR>
+<TR><TD>000.2858</TD><TD>+19.2428</TD><TD>00 01 08.6</TD><TD>+19 14 34</TD><TD>3.100</TD><TD>20.50</TD><TD>36</TD></TR>
+<TR><TD>000.2888</TD><TD>-27.2275</TD><TD>00 01 09.3</TD><TD>-27 13 39</TD><TD>1.100</TD><TD>18.76</TD><TD>37</TD></TR>
+<TR><TD>000.2892</TD><TD>+1.4442</TD><TD>00 01 09.4</TD><TD>+01 26 39</TD><TD>0.724</TD><TD>18.80</TD><TD>38</TD></TR>
+<TR><TD>000.3000</TD><TD>-31.2328</TD><TD>00 01 12.0</TD><TD>-31 13 58</TD><TD>1.226</TD><TD>19.76</TD><TD>39</TD></TR>
+<TR><TD>000.3192</TD><TD>+0.0353</TD><TD>00 01 16.6</TD><TD>+00 02 07</TD><TD>0.780</TD><TD>19.10</TD><TD>40</TD></TR>
+<TR><TD>000.3225</TD><TD>-28.5489</TD><TD>00 01 17.4</TD><TD>-28 32 56</TD><TD>1.423</TD><TD>19.63</TD><TD>41</TD></TR>
+<TR><TD>000.3254</TD><TD>+7.4739</TD><TD>00 01 18.1</TD><TD>+07 28 26</TD><TD>0.270</TD><TD>17.90</TD><TD>42</TD></TR>
+<TR><TD>000.3300</TD><TD>+2.8217</TD><TD>00 01 19.2</TD><TD>+02 49 18</TD><TD>2.750</TD><TD>18.00</TD><TD>43</TD></TR>
+<TR><TD>000.3404</TD><TD>+2.5511</TD><TD>00 01 21.7</TD><TD>+02 33 04</TD><TD>1.872</TD><TD>19.40</TD><TD>44</TD></TR>
+<TR><TD>000.3454</TD><TD>-27.9911</TD><TD>00 01 22.9</TD><TD>-27 59 28</TD><TD>1.795</TD><TD>20.35</TD><TD>45</TD></TR>
+<TR><TD>000.3492</TD><TD>+6.5419</TD><TD>00 01 23.8</TD><TD>+06 32 31</TD><TD>1.030</TD><TD>17.40</TD><TD>46</TD></TR>
+<TR><TD>000.3796</TD><TD>-28.3611</TD><TD>00 01 31.1</TD><TD>-28 21 40</TD><TD>2.307</TD><TD>20.44</TD><TD>47</TD></TR>
+<TR><TD>000.3850</TD><TD>+21.2267</TD><TD>00 01 32.4</TD><TD>+21 13 36</TD><TD>1.106</TD><TD>19.10</TD><TD>48</TD></TR>
+<TR><TD>000.3892</TD><TD>+5.7669</TD><TD>00 01 33.4</TD><TD>+05 46 01</TD><TD>0.251</TD><TD>16.90</TD><TD>49</TD></TR>
+<TR><TD>000.3912</TD><TD>-31.1914</TD><TD>00 01 33.9</TD><TD>-31 11 29</TD><TD>0.855</TD><TD>20.79</TD><TD>50</TD></TR>
+</TABLEDATA>
+</DATA>
+<!-- Result Truncated to 50 -->
+  </TABLE>
+</RESOURCE>
+</VOTABLE>

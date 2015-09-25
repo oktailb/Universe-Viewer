@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>851</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+         <widget class="QWidget" name="gridLayoutWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>20</y>
+            <width>320</width>
+            <height>182</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetMaximumSize</enum>
+           </property>
+           <item row="3" column="0">
+            <widget class="QRadioButton" name="radioButton_5">
+             <property name="text">
+              <string>Alpha</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QSpinBox" name="spinBox_4"/>
+           </item>
+           <item row="1" column="1">
+            <widget class="QSpinBox" name="spinBox_2"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QSpinBox" name="spinBox"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QRadioButton" name="radioButton_4">
+             <property name="text">
+              <string>k</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QRadioButton" name="radioButton_3">
+             <property name="text">
+              <string>Omega</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QSpinBox" name="spinBox_3"/>
+           </item>
+           <item row="0" column="0">
+            <widget class="QRadioButton" name="radioButton">
+             <property name="text">
+              <string>Lambda</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+         <widget class="QWidget" name="gridLayoutWidget_6">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>274</width>
+            <height>145</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetMaximumSize</enum>
+           </property>
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <item row="1" column="1">
+            <widget class="QSpinBox" name="spinBox_11"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>Declinaison</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>Right Ascencion</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>Beta</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QSpinBox" name="spinBox_12"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QSpinBox" name="spinBox_13"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="edge1">
+        <attribute name="title">
+         <string>Edge 1</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="edge2">
+        <attribute name="title">
+         <string>Edge 2</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="edge3">
+        <attribute name="title">
+         <string>Edge 3</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="front1">
+        <attribute name="title">
+         <string>Front 1</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="front2">
+        <attribute name="title">
+         <string>Front 2</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="front3">
+        <attribute name="title">
+         <string>Front 3</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>855</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionOuvrir"/>
+    <addaction name="actionEnregistrer"/>
+    <addaction name="actionEnregistrer_sous"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuVue">
+    <property name="title">
+     <string>Vue</string>
+    </property>
+    <addaction name="actionEdge_1"/>
+    <addaction name="actionEdge_2"/>
+    <addaction name="actionEdge_3"/>
+    <addaction name="separator"/>
+    <addaction name="actionFront_1"/>
+    <addaction name="actionFront_2"/>
+    <addaction name="actionFron_t_3"/>
+   </widget>
+   <widget class="QMenu" name="menuGraphics">
+    <property name="title">
+     <string>Graphics</string>
+    </property>
+    <addaction name="actionLambda_vs_Omega"/>
+    <addaction name="actionPlot_a_t"/>
+    <addaction name="actionPlot_integrand"/>
+    <addaction name="actionPlot_COmobile_distance_z"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionDIstance"/>
+    <addaction name="actionIsotropic"/>
+   </widget>
+   <widget class="QMenu" name="menuPreferences">
+    <property name="title">
+     <string>Preferences</string>
+    </property>
+    <addaction name="actionMoves_step"/>
+    <addaction name="actionCalculus"/>
+    <addaction name="actionOptions"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionA_Propos"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuVue"/>
+   <addaction name="menuGraphics"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuPreferences"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionFile">
+   <property name="text">
+    <string>file</string>
+   </property>
+  </action>
+  <action name="actionOuvrir">
+   <property name="text">
+    <string>Ouvrir</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer">
+   <property name="text">
+    <string>Enregistrer</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_sous">
+   <property name="text">
+    <string>Enregistrer sous ...</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionEdge_1">
+   <property name="text">
+    <string>Edge 1</string>
+   </property>
+  </action>
+  <action name="actionEdge_2">
+   <property name="text">
+    <string>Edge 2</string>
+   </property>
+  </action>
+  <action name="actionEdge_3">
+   <property name="text">
+    <string>Edge 3</string>
+   </property>
+  </action>
+  <action name="actionFront_1">
+   <property name="text">
+    <string>Front 1</string>
+   </property>
+  </action>
+  <action name="actionFront_2">
+   <property name="text">
+    <string>Front 2</string>
+   </property>
+  </action>
+  <action name="actionFron_t_3">
+   <property name="text">
+    <string>Fron t 3</string>
+   </property>
+  </action>
+  <action name="actionLambda_vs_Omega">
+   <property name="text">
+    <string>Lambda vs Omega</string>
+   </property>
+  </action>
+  <action name="actionPlot_a_t">
+   <property name="text">
+    <string>Plot a(t)</string>
+   </property>
+  </action>
+  <action name="actionPlot_integrand">
+   <property name="text">
+    <string>Plot integrand</string>
+   </property>
+  </action>
+  <action name="actionPlot_COmobile_distance_z">
+   <property name="text">
+    <string>Plot Comobile distance (z)</string>
+   </property>
+  </action>
+  <action name="actionDIstance">
+   <property name="text">
+    <string>DIstance</string>
+   </property>
+  </action>
+  <action name="actionIsotropic">
+   <property name="text">
+    <string>Isotropic</string>
+   </property>
+  </action>
+  <action name="actionMoves_step">
+   <property name="text">
+    <string>Moves step</string>
+   </property>
+  </action>
+  <action name="actionCalculus">
+   <property name="text">
+    <string>Calculus</string>
+   </property>
+  </action>
+  <action name="actionOptions">
+   <property name="text">
+    <string>Options</string>
+   </property>
+  </action>
+  <action name="actionA_Propos">
+   <property name="text">
+    <string>A Propos ...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
